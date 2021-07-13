@@ -310,13 +310,11 @@ img{
 }
 /* 링크 트랜지션 */
 .gnb a{
-    display: inline-block;
-    transition: .3s;
+    transition: color .3s;
 }
 /* 마우스 오버시 글자색 */
 .gnb a:hover{
-    color: #00f;
-    transform: scale(2);
+    color: #f00;
 }
 
 /* 2. 메인영역 */
